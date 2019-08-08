@@ -22,7 +22,7 @@ void main()
     {
         ch = str[i];
         ch = ch-3;
-        deciph[i]=ch;
+        deciph[i]=ch; //deciphering each character
 
     }
     puts(deciph); //printing the deciphered text
