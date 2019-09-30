@@ -15,7 +15,7 @@ void main()
     
     if (str[len-1] == '\n') //this removes the \n stored at the end when fgets is used
     {
-        str[len-1] = '\0';
+        str[len-1] = '\0'; //string length comparison
     }
 
     for(int i=0;i<strlen(str);i++) //loop to take each character and cipher it
